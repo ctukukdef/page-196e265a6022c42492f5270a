@@ -1,0 +1,197 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>moneycome - 个人与团队资产数字化管理终端</title><meta name="description" content="moneycome 提供冷静克制的资产与财务数字化解决方案，以极简结构与严谨架构处理您的数字资产。"><meta name="keywords" content="moneycome, 资产管理, 财务数字化, 数据终端, 效率工具"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-cd66afd937.hnziyuan.cn/"><meta property="og:type" content="website"><meta property="og:title" content="moneycome - 个人与团队资产数字化管理终端"><meta property="og:description" content="moneycome 提供冷静克制的资产与财务数字化解决方案，以极简结构与严谨架构处理您的数字资产。"><meta property="og:url" content="https://p-cd66afd937.hnziyuan.cn/"><meta property="og:site_name" content="moneycome"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-cd66afd937.hnziyuan.cn/", "name": "moneycome - 个人与团队资产数字化管理终端", "description": "moneycome 提供冷静克制的资产与财务数字化解决方案，以极简结构与严谨架构处理您的数字资产。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="196e265a6022c42492f5270a:a41de3e886dbb30ed8b8be1ee92cc11d8cc3e148ad01379f93b9658c0d1ad136:0c48c2459fca19a6e4b8"></head><body id="top"><style>
+:root {--bg-color: #261c14;--panel-bg: #32241b;--text-main: #f0eae1;--text-muted: #b5a495;--mint: #7fffd4;--mint-dim: #4da688;--border-color: #433124}
+* {box-sizing: border-box;margin: 0;padding: 0}
+body {background-color: var(--bg-color);color: var(--text-main);font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;line-height: 1.6;letter-spacing: -0.01em}
+header {border-bottom: 1px solid var(--border-color);background-color: var(--bg-color);position: sticky;top: 0;z-index: 100}
+.nav-container {max-width: 1200px;margin: 0 auto;padding: 0.75rem 2rem;display: flex;justify-content: space-between;align-items: center}
+.brand-logo {font-weight: 700;font-size: 1.1rem;color: var(--text-main);text-decoration: none;letter-spacing: 0.05em}
+.nav-links {display: flex;gap: 2rem;list-style: none}
+.nav-links a {color: var(--text-muted);text-decoration: none;font-size: 0.85rem;text-transform: uppercase;letter-spacing: 0.05em;transition: color 0.2s}
+.nav-links a:hover {color: var(--mint)}
+main {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem}
+.hero {display: grid;grid-template-columns: 1.2fr 0.8fr;gap: 4rem;align-items: center;min-height: 70vh;padding-bottom: 4rem;border-bottom: 1px solid var(--border-color)}
+.hero-content h1 {font-size: 3.5rem;font-weight: 400;line-height: 1.1;margin-bottom: 1.5rem;color: var(--text-main)}
+.hero-content h1 span {color: var(--mint)}
+.hero-content p {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 2rem;max-width: 500px}
+.hero-panel {background-color: var(--panel-bg);padding: 2.5rem;border-radius: 4px}
+.hero-panel h3 {font-size: 0.9rem;text-transform: uppercase;letter-spacing: 0.1em;color: var(--mint);margin-bottom: 1.5rem}
+.metric-row {display: flex;justify-content: space-between;padding: 1rem 0;border-bottom: 1px solid var(--border-color);font-size: 0.95rem}
+.metric-row:last-child {border-bottom: none}
+.metric-row span:last-child {font-family: monospace;color: var(--text-main)}
+section {padding: 5rem 0;border-bottom: 1px solid var(--border-color)}
+section h2 {font-size: 2rem;font-weight: 400;margin-bottom: 1rem}
+.section-intro {color: var(--text-muted);max-width: 600px;margin-bottom: 3rem;font-size: 1rem}
+.plans-stack {display: flex;flex-direction: column;gap: 2rem;max-width: 800px}
+.plan-card {background-color: var(--panel-bg);padding: 2.5rem;border-left: 3px solid var(--mint-dim)}
+.plan-card.featured {border-left-color: var(--mint);background-color: #38291f}
+.plan-header {display: flex;justify-content: space-between;align-items: baseline;margin-bottom: 1.5rem}
+.plan-title {font-size: 1.25rem;font-weight: 500}
+.plan-price {font-size: 1.5rem;font-family: monospace;color: var(--mint)}
+.plan-features {list-style: none;display: grid;grid-template-columns: 1fr 1fr;gap: 0.75rem 2rem;margin-bottom: 2rem}
+.plan-features li {font-size: 0.9rem;color: var(--text-muted);position: relative;padding-left: 1.2rem}
+.plan-features li::before {content: "—";position: absolute;left: 0;color: var(--mint-dim)}
+.action-btn {display: inline-block;background-color: transparent;color: var(--text-main);border: 1px solid var(--mint-dim);padding: 0.75rem 1.5rem;font-size: 0.85rem;text-transform: uppercase;letter-spacing: 0.05em;text-decoration: none;transition: all 0.2s}
+.action-btn:hover {background-color: var(--mint);color: var(--bg-color);border-color: var(--mint)}
+.spec-grid {display: grid;grid-template-columns: repeat(3, 1fr);gap: 3rem;margin-top: 3rem}
+.spec-item h3 {font-size: 1.1rem;margin-bottom: 0.75rem;color: var(--text-main);font-weight: 500}
+.spec-item p {font-size: 0.9rem;color: var(--text-muted);line-height: 1.7}
+.faq-container {max-width: 800px;display: flex;flex-direction: column;gap: 1rem}
+details {background-color: var(--panel-bg);border: 1px solid var(--border-color);padding: 1.5rem;transition: border-color 0.2s}
+details[open] {border-color: var(--mint-dim)}
+summary {font-size: 1rem;font-weight: 500;cursor: pointer;outline: none;list-style: none;display: flex;justify-content: space-between;align-items: center}
+summary::-webkit-details-marker {display: none}
+summary::after {content: "+";font-family: monospace;font-size: 1.2rem;color: var(--mint)}
+details[open] summary::after {content: "—"}
+details p {margin-top: 1rem;font-size: 0.9rem;color: var(--text-muted);line-height: 1.7}
+footer {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem;display: flex;justify-content: space-between;align-items: center;font-size: 0.85rem;color: var(--text-muted)}
+footer a {color: var(--text-muted);text-decoration: none}
+footer a:hover {color: var(--mint)}
+@media (max-width: 768px) {
+  .hero {grid-template-columns: 1fr;gap: 2rem;min-height: auto}
+  .hero-content h1 {font-size: 2.5rem}
+  .spec-grid {grid-template-columns: 1fr;gap: 2rem}
+  .plan-features {grid-template-columns: 1fr}
+  .nav-links {display: none}
+}
+</style><header>
+  <div class="nav-container">
+    <a href="#" class="brand-logo">MONEYCOME</a>
+    <ul class="nav-links">
+      <li><a href="#overview">系统概览</a></li>
+      <li><a href="#plans">服务层级</a></li>
+      <li><a href="#specs">技术规格</a></li>
+      <li><a href="#faq">常见问题</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="hero" id="overview">
+    <div class="hero-content">
+      <h1>moneycome · 理性管理 <span>数字资产</span> 的架构终端</h1>
+      <p>moneycome 提供高精度的财务数据归集与分配方案。无冗余交互，以严谨逻辑与冷峻美学构建您的长效资产通道。</p>
+      <a href="#plans" class="action-btn">查看配置方案</a>
+    </div>
+    <div class="hero-panel">
+      <h3>系统实时状态</h3>
+      <div class="metric-row">
+        <span>节点吞吐效率</span>
+        <span>99.98%</span>
+      </div>
+      <div class="metric-row">
+        <span>协议响应延迟</span>
+        <span>14ms</span>
+      </div>
+      <div class="metric-row">
+        <span>核心路由加密</span>
+        <span>AES-256-GCM</span>
+      </div>
+      <div class="metric-row">
+        <span>当前终端在线</span>
+        <span>稳定运行</span>
+      </div>
+    </div>
+  </div>
+
+  <section id="plans">
+    <h2>服务层级配置</h2>
+    <p class="section-intro">根据数据规模与团队吞吐需求，选择对应的规格参数。所有层级均享有基础加密与高可用保障。</p>
+    
+    <div class="plans-stack">
+      <div class="plan-card">
+        <div class="plan-header">
+          <span class="plan-title">基础版</span>
+          <span class="plan-price">¥15 / 月</span>
+        </div>
+        <ul class="plan-features">
+          <li>每月 100GB 极速流量</li>
+          <li>支持 3 台设备同时在线</li>
+          <li>解锁基础流媒体</li>
+          <li>普通线路节点池</li>
+        </ul>
+        <a href="#" class="action-btn">选择基础版</a>
+      </div>
+
+      <div class="plan-card featured">
+        <div class="plan-header">
+          <span class="plan-title">旗舰版</span>
+          <span class="plan-price">¥35 / 月</span>
+        </div>
+        <ul class="plan-features">
+          <li>每月 300GB 极速流量</li>
+          <li>支持 5 台设备同时在线</li>
+          <li>全节点原生流媒体解锁</li>
+          <li>IPLC 专线游戏加速优化</li>
+          <li>7x24 优先工单支持</li>
+        </ul>
+        <a href="#" class="action-btn">选择旗舰版</a>
+      </div>
+
+      <div class="plan-card">
+        <div class="plan-header">
+          <span class="plan-title">团队版</span>
+          <span class="plan-price">¥85 / 月</span>
+        </div>
+        <ul class="plan-features">
+          <li>每月 1000GB 极速流量</li>
+          <li>支持 20 台设备同时在线</li>
+          <li>VIP 专属高带宽节点</li>
+          <li>支持企业定制路由</li>
+          <li>专属客户经理服务</li>
+        </ul>
+        <a href="#" class="action-btn">选择团队版</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="specs">
+    <h2>技术规格与说明</h2>
+    <p class="section-intro">moneycome 遵循极简主义工程学，确保每一项功能均有据可循，无多余后台驻留。</p>
+    
+    <div class="spec-grid">
+      <div class="spec-item">
+        <h3>零日志审计</h3>
+        <p>系统不记录任何源 IP、访问目标及传输内容。所有状态数据均在内存中处理，保障完全的隐私归属。</p>
+      </div>
+      <div class="spec-item">
+        <h3>多端协同支持</h3>
+        <p>全面兼容主流桌面及移动操作系统。原生客户端经深度优化，CPU 占用率维持在极低水平。</p>
+      </div>
+      <div class="spec-item">
+        <h3>智能分流策略</h3>
+        <p>内置精准的路由规则库，国内外流量无感切换，确保核心业务带宽不受本地网络干扰。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>常见问题解答</h2>
+    <p class="section-intro">关于账户配置、计费周期以及使用规范的说明。</p>
+    
+    <div class="faq-container">
+      <details>
+        <summary>如何更改当前的订阅配置？</summary>
+        <p>您可随时在后台控制面板执行升级或降级操作。系统将自动按剩余有效天数计算差价，实时完成配置变更，无需人工干预。</p>
+      </details>
+      <details>
+        <summary>流量额度是否支持跨月累加？</summary>
+        <p>不支持。每个计费周期的起始日会自动重置当月可用流量配额，未用尽的额度不会结转至下一个周期。</p>
+      </details>
+      <details>
+        <summary>是否支持退款政策？</summary>
+        <p>鉴于数字服务的特殊性，服务开通后在规定试用期内支持无条件按比例退款。具体条款可参阅用户协议细则。</p>
+      </details>
+      <details>
+        <summary>连接出现延迟波动时应如何处理？</summary>
+        <p>建议通过控制面板的测速功能重新校准最优节点，或切换至专线优化节点池。如问题持续，可提交工单由技术团队协助排查。</p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>© moneycome. All rights reserved.</div>
+  <div>
+    <a href="#overview">返回顶部</a>
+  </div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>

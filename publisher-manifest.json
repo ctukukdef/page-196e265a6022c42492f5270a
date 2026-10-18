@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "7f8756bef886d9623e9bfe83",
+  "owner": "ctukukdef",
+  "repo": "page-196e265a6022c42492f5270a",
+  "title": "moneycome",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "196e265a6022c42492f5270a",
+      "a": "moneycome",
+      "b": "",
+      "entity": "moneycome",
+      "brand": "moneycome",
+      "separator": "",
+      "path": "index.html",
+      "hash": "a41de3e886dbb30ed8b8be1ee92cc11d8cc3e148ad01379f93b9658c0d1ad136",
+      "content": {
+        "keyword1": "moneycome",
+        "keyword2": "",
+        "primary_entity": "moneycome",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "moneycome 提供冷静克制的资产与财务数字化解决方案，以极简结构与严谨架构处理您的数字资产。",
+          "AI_DESCRIPTION": "moneycome 提供冷静克制的资产与财务数字化解决方案，以极简结构与严谨架构处理您的数字资产。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root {--bg-color: #261c14;--panel-bg: #32241b;--text-main: #f0eae1;--text-muted: #b5a495;--mint: #7fffd4;--mint-dim: #4da688;--border-color: #433124}\n* {box-sizing: border-box;margin: 0;padding: 0}\nbody {background-color: var(--bg-color);color: var(--text-main);font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;line-height: 1.6;letter-spacing: -0.01em}\nheader {border-bottom: 1px solid var(--border-color);background-color: var(--bg-color);position: sticky;top: 0;z-index: 100}\n.nav-container {max-width: 1200px;margin: 0 auto;padding: 0.75rem 2rem;display: flex;justify-content: space-between;align-items: center}\n.brand-logo {font-weight: 700;font-size: 1.1rem;color: var(--text-main);text-decoration: none;letter-spacing: 0.05em}\n.nav-links {display: flex;gap: 2rem;list-style: none}\n.nav-links a {color: var(--text-muted);text-decoration: none;font-size: 0.85rem;text-transform: uppercase;letter-spacing: 0.05em;transition: color 0.2s}\n.nav-links a:hover {color: var(--mint)}\nmain {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem}\n.hero {display: grid;grid-template-columns: 1.2fr 0.8fr;gap: 4rem;align-items: center;min-height: 70vh;padding-bottom: 4rem;border-bottom: 1px solid var(--border-color)}\n.hero-content h1 {font-size: 3.5rem;font-weight: 400;line-height: 1.1;margin-bottom: 1.5rem;color: var(--text-main)}\n.hero-content h1 span {color: var(--mint)}\n.hero-content p {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 2rem;max-width: 500px}\n.hero-panel {background-color: var(--panel-bg);padding: 2.5rem;border-radius: 4px}\n.hero-panel h3 {font-size: 0.9rem;text-transform: uppercase;letter-spacing: 0.1em;color: var(--mint);margin-bottom: 1.5rem}\n.metric-row {display: flex;justify-content: space-between;padding: 1rem 0;border-bottom: 1px solid var(--border-color);font-size: 0.95rem}\n.metric-row:last-child {border-bottom: none}\n.metric-row span:last-child {font-family: monospace;color: var(--text-main)}\nsection {padding: 5rem 0;border-bottom: 1px solid var(--border-color)}\nsection h2 {font-size: 2rem;font-weight: 400;margin-bottom: 1rem}\n.section-intro {color: var(--text-muted);max-width: 600px;margin-bottom: 3rem;font-size: 1rem}\n.plans-stack {display: flex;flex-direction: column;gap: 2rem;max-width: 800px}\n.plan-card {background-color: var(--panel-bg);padding: 2.5rem;border-left: 3px solid var(--mint-dim)}\n.plan-card.featured {border-left-color: var(--mint);background-color: #38291f}\n.plan-header {display: flex;justify-content: space-between;align-items: baseline;margin-bottom: 1.5rem}\n.plan-title {font-size: 1.25rem;font-weight: 500}\n.plan-price {font-size: 1.5rem;font-family: monospace;color: var(--mint)}\n.plan-features {list-style: none;display: grid;grid-template-columns: 1fr 1fr;gap: 0.75rem 2rem;margin-bottom: 2rem}\n.plan-features li {font-size: 0.9rem;color: var(--text-muted);position: relative;padding-left: 1.2rem}\n.plan-features li::before {content: \"—\";position: absolute;left: 0;color: var(--mint-dim)}\n.action-btn {display: inline-block;background-color: transparent;color: var(--text-main);border: 1px solid var(--mint-dim);padding: 0.75rem 1.5rem;font-size: 0.85rem;text-transform: uppercase;letter-spacing: 0.05em;text-decoration: none;transition: all 0.2s}\n.action-btn:hover {background-color: var(--mint);color: var(--bg-color);border-color: var(--mint)}\n.spec-grid {display: grid;grid-template-columns: repeat(3, 1fr);gap: 3rem;margin-top: 3rem}\n.spec-item h3 {font-size: 1.1rem;margin-bottom: 0.75rem;color: var(--text-main);font-weight: 500}\n.spec-item p {font-size: 0.9rem;color: var(--text-muted);line-height: 1.7}\n.faq-container {max-width: 800px;display: flex;flex-direction: column;gap: 1rem}\ndetails {background-color: var(--panel-bg);border: 1px solid var(--border-color);padding: 1.5rem;transition: border-color 0.2s}\ndetails[open] {border-color: var(--mint-dim)}\nsummary {font-size: 1rem;font-weight: 500;cursor: pointer;outline: none;list-style: none;display: flex;justify-content: space-between;align-items: center}\nsummary::-webkit-details-marker {display: none}\nsummary::after {content: \"+\";font-family: monospace;font-size: 1.2rem;color: var(--mint)}\ndetails[open] summary::after {content: \"—\"}\ndetails p {margin-top: 1rem;font-size: 0.9rem;color: var(--text-muted);line-height: 1.7}\nfooter {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem;display: flex;justify-content: space-between;align-items: center;font-size: 0.85rem;color: var(--text-muted)}\nfooter a {color: var(--text-muted);text-decoration: none}\nfooter a:hover {color: var(--mint)}\n@media (max-width: 768px) {\n  .hero {grid-template-columns: 1fr;gap: 2rem;min-height: auto}\n  .hero-content h1 {font-size: 2.5rem}\n  .spec-grid {grid-template-columns: 1fr;gap: 2rem}\n  .plan-features {grid-template-columns: 1fr}\n  .nav-links {display: none}\n}\n</style><header>\n  <div class=\"nav-container\">\n    <a href=\"#\" class=\"brand-logo\">MONEYCOME</a>\n    <ul class=\"nav-links\">\n      <li><a href=\"#overview\">系统概览</a></li>\n      <li><a href=\"#plans\">服务层级</a></li>\n      <li><a href=\"#specs\">技术规格</a></li>\n      <li><a href=\"#faq\">常见问题</a></li>\n    </ul>\n  </div>\n</header>\n\n<main>\n  <div class=\"hero\" id=\"overview\">\n    <div class=\"hero-content\">\n      <h1>moneycome · 理性管理 <span>数字资产</span> 的架构终端</h1>\n      <p>moneycome 提供高精度的财务数据归集与分配方案。无冗余交互，以严谨逻辑与冷峻美学构建您的长效资产通道。</p>\n      <a href=\"#plans\" class=\"action-btn\">查看配置方案</a>\n    </div>\n    <div class=\"hero-panel\">\n      <h3>系统实时状态</h3>\n      <div class=\"metric-row\">\n        <span>节点吞吐效率</span>\n        <span>99.98%</span>\n      </div>\n      <div class=\"metric-row\">\n        <span>协议响应延迟</span>\n        <span>14ms</span>\n      </div>\n      <div class=\"metric-row\">\n        <span>核心路由加密</span>\n        <span>AES-256-GCM</span>\n      </div>\n      <div class=\"metric-row\">\n        <span>当前终端在线</span>\n        <span>稳定运行</span>\n      </div>\n    </div>\n  </div>\n\n  <section id=\"plans\">\n    <h2>服务层级配置</h2>\n    <p class=\"section-intro\">根据数据规模与团队吞吐需求，选择对应的规格参数。所有层级均享有基础加密与高可用保障。</p>\n    \n    <div class=\"plans-stack\">\n      <div class=\"plan-card\">\n        <div class=\"plan-header\">\n          <span class=\"plan-title\">基础版</span>\n          <span class=\"plan-price\">¥15 / 月</span>\n        </div>\n        <ul class=\"plan-features\">\n          <li>每月 100GB 极速流量</li>\n          <li>支持 3 台设备同时在线</li>\n          <li>解锁基础流媒体</li>\n          <li>普通线路节点池</li>\n        </ul>\n        <a href=\"#\" class=\"action-btn\">选择基础版</a>\n      </div>\n\n      <div class=\"plan-card featured\">\n        <div class=\"plan-header\">\n          <span class=\"plan-title\">旗舰版</span>\n          <span class=\"plan-price\">¥35 / 月</span>\n        </div>\n        <ul class=\"plan-features\">\n          <li>每月 300GB 极速流量</li>\n          <li>支持 5 台设备同时在线</li>\n          <li>全节点原生流媒体解锁</li>\n          <li>IPLC 专线游戏加速优化</li>\n          <li>7x24 优先工单支持</li>\n        </ul>\n        <a href=\"#\" class=\"action-btn\">选择旗舰版</a>\n      </div>\n\n      <div class=\"plan-card\">\n        <div class=\"plan-header\">\n          <span class=\"plan-title\">团队版</span>\n          <span class=\"plan-price\">¥85 / 月</span>\n        </div>\n        <ul class=\"plan-features\">\n          <li>每月 1000GB 极速流量</li>\n          <li>支持 20 台设备同时在线</li>\n          <li>VIP 专属高带宽节点</li>\n          <li>支持企业定制路由</li>\n          <li>专属客户经理服务</li>\n        </ul>\n        <a href=\"#\" class=\"action-btn\">选择团队版</a>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"specs\">\n    <h2>技术规格与说明</h2>\n    <p class=\"section-intro\">moneycome 遵循极简主义工程学，确保每一项功能均有据可循，无多余后台驻留。</p>\n    \n    <div class=\"spec-grid\">\n      <div class=\"spec-item\">\n        <h3>零日志审计</h3>\n        <p>系统不记录任何源 IP、访问目标及传输内容。所有状态数据均在内存中处理，保障完全的隐私归属。</p>\n      </div>\n      <div class=\"spec-item\">\n        <h3>多端协同支持</h3>\n        <p>全面兼容主流桌面及移动操作系统。原生客户端经深度优化，CPU 占用率维持在极低水平。</p>\n      </div>\n      <div class=\"spec-item\">\n        <h3>智能分流策略</h3>\n        <p>内置精准的路由规则库，国内外流量无感切换，确保核心业务带宽不受本地网络干扰。</p>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"faq\">\n    <h2>常见问题解答</h2>\n    <p class=\"section-intro\">关于账户配置、计费周期以及使用规范的说明。</p>\n    \n    <div class=\"faq-container\">\n      <details>\n        <summary>如何更改当前的订阅配置？</summary>\n        <p>您可随时在后台控制面板执行升级或降级操作。系统将自动按剩余有效天数计算差价，实时完成配置变更，无需人工干预。</p>\n      </details>\n      <details>\n        <summary>流量额度是否支持跨月累加？</summary>\n        <p>不支持。每个计费周期的起始日会自动重置当月可用流量配额，未用尽的额度不会结转至下一个周期。</p>\n      </details>\n      <details>\n        <summary>是否支持退款政策？</summary>\n        <p>鉴于数字服务的特殊性，服务开通后在规定试用期内支持无条件按比例退款。具体条款可参阅用户协议细则。</p>\n      </details>\n      <details>\n        <summary>连接出现延迟波动时应如何处理？</summary>\n        <p>建议通过控制面板的测速功能重新校准最优节点，或切换至专线优化节点池。如问题持续，可提交工单由技术团队协助排查。</p>\n      </details>\n    </div>\n  </section>\n</main>\n\n<footer>\n  <div>© moneycome. All rights reserved.</div>\n  <div>\n    <a href=\"#overview\">返回顶部</a>\n  </div>\n</footer>",
+          "hash": "a7713c1fd2deae12bc136baa45cfb3fc7d913a4a7e6cdae4f536e16f11094ce9",
+          "seo": {
+            "title": "moneycome - 个人与团队资产数字化管理终端",
+            "keywords": "moneycome, 资产管理, 财务数字化, 数据终端, 效率工具",
+            "description": "moneycome 提供冷静克制的资产与财务数字化解决方案，以极简结构与严谨架构处理您的数字资产。"
+          },
+          "provider": "grok",
+          "model": "gemini-3.7-flash",
+          "design": {
+            "no": "3048",
+            "hero": "1 左文右信息面板的不对称分栏",
+            "palette": "9 深棕配薄荷",
+            "nav": "1 顶部细横条",
+            "card": "1 无边框仅靠留白分隔",
+            "plans_view": "4 单列大卡依次堆叠",
+            "faq_view": "4 details 折叠",
+            "tone": "1 冷静克制的说明书口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "hnziyuan.cn",
+    "host": "p-cd66afd937.hnziyuan.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "fef38d13a36c873161c53d0c30a4132dc5019de04b5559dd0f7e9c939c4b60da",
+    "sitemap.xml": "83e7db92d424e7702245c6fc48bfaac9c8b086435bf1170038ab98d5fe6a6ba0",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "9f137a1b1dc19c38ba81f40a29c092c41bdbee816b19d02962fd2678eac8d41d",
+    "robots.txt": "f6b0bfd82d3a92f1871641902bdffb613e15c3b4768fcfcdfaff44da3d8d8a4e",
+    "ffd490d98b40350d4a723ca48207185e.txt": "0cbae13a5d29e9b54161795f2777dc2f5ca50f1249bfcb270aa883ff79ccd25e"
+  },
+  "revision": "bd5b038229fde5d886f79f6658895ed0d7614fed19c3e6582beebb5b5774f7ab"
+}
